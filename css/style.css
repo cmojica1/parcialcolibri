@@ -1,0 +1,575 @@
+/*GOOGLE FONTS*/
+ @import url('https://fonts.googleapis.com/css2?family=Antic&family=Lilita+One&display=swap');
+body{
+  font-family: 'Antic', sans-serif;
+}
+/*barra de navegacion*/
+ nav{
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   padding: 20px;
+   transition: all 0.4 ease;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+   background-color: white;
+ }
+ nav .sticky{
+   padding: 15px 20px;
+   background: red;
+   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+ }
+ nav .nav-content{
+ height: 100px;
+ max-width: 1200px;
+ margin: auto;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+  }
+
+  img .imglogo{
+    height: 100px;
+    width: 100px;
+    object-fit:contain;
+    }
+  div .logo{
+   height: 100px;
+ }
+
+ nav.sticky .logo a{
+   color: #AF368D;
+ }
+ .nav-content .nav-links{
+   display: flex;
+
+ }
+ .nav-content .nav-links li{
+   list-style: none;
+   margin: 0 8px;
+ }
+ .nav-links li a{
+   font-family: 'Lilita One', cursive;
+   text-decoration: none;
+   color: #AF368D;
+   font-size: 20px;
+   font-weight: 500px;
+   padding: 10px 4px;
+   transition: all 0.4 ease;
+ }
+ .nav-links li a:hover{
+   color: #6B2156;
+ }
+
+/*landing page*/
+.Nosotros {
+  max-width: 1000px;
+  margin: auto;
+  background-image: url("../img/bebemorado.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #6B2156;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.Nosotros-container {
+margin-left: 20px;
+margin-right: 20px;
+color: white;
+text-shadow: 1px 2px 7px black, 1px 1px 2px black;
+}
+
+.Nosotros-h2 {
+  font-size: 50px;
+  font-family: 'Lilita One', cursive;
+  color: #AF368D;
+  text-shadow: 1px 2px 7px white, 1px 1px 2px white;
+}
+
+.Nosotros-title {
+  font-size: 30px;
+}
+
+.Nosotros-body {
+  font-size: 25px;
+  text-align: justify;
+}
+
+.Nosotros-button {
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #AF368D;
+  color: white;
+  border: 0px;
+  font-size: 20px;
+  box-shadow: 2px 2px 5px black;
+}
+
+.Nosotros-button:hover {
+  background-color: white;
+  color: #6B2156;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-color: #6B2156;
+  font-size: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-shadow: 2px 2px 5px black;
+}
+
+.Comprueba {
+  background-position: center;
+  background-color: #6B2156;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  font-family: 'Lilita One', cursive;
+  box-shadow: 0 0 5px black;
+  align-items: center;
+}
+
+  .comprueba-contenido{
+    margin: auto;
+    align-items: center;
+    text-align: center;
+
+  }
+
+  .Comprueba-CTA{
+    width: 40%;
+    height: 400px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-image: url("../img/muestragratis.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #6B2156;
+  color: white;
+  font-size: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-shadow: 1px 2px 7px black, 1px 1px 2px black;
+  margin-bottom: 50px;
+  }
+
+      .Comprueba-text {
+        vertical-align: top;
+
+      }
+
+      .Comprueba-button {
+        vertical-align: bottom;
+        border-radius: 5px;
+        margin-top: 130px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        background-color: white;
+        color: #6B2156;
+        border: 0px;
+        font-size: 20px;
+        box-shadow: 2px 2px 5px black;
+      }
+      .Comprueba-button:hover {
+
+        background-color: #6B2156;
+        color: white;
+        border-radius: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-color: #6B2156;
+        font-size: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+        box-shadow: 2px 2px 5px black;
+      }
+  .Comprueba-Contacto{
+      width: 40%;
+      display: inline-block;
+      vertical-align: top;
+      margin-left: 15px;
+      margin-right: 15px;
+      margin: auto;
+      }
+      .Contacto-h2{
+        font-size: 22px;
+        color: #6B2156;
+      }
+.Contacto-form {
+  color: #6B2156;
+}
+input[type=text], input[type=email], input[type=tel] {
+  background-color: #6B2156;
+  color: white;
+
+}
+label {
+  font-size: 15px;
+}
+
+input[type=submit] {
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: white;
+  color: #6B2156;
+  border: 0px;
+  font-size: 20px;
+  box-shadow: 2px 2px 5px black;
+}
+
+input[type=submit]:hover {
+
+  background-color: #6B2156;
+  color: white;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-color: #6B2156;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-shadow: 2px 2px 5px black;
+}
+  /*página de compras*/
+
+.productos{
+  display: inline-block;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+  background-color: #6B2156;
+  width: 100%;
+}
+ .item-pr{
+   width: 25%;
+   height: 500px;
+   display: inline-block;
+   vertical-align: top;
+   margin-left: 15px;
+   margin-right: 15px;
+
+   color: white;
+   font-size: 20px;
+   padding-left: 20px;
+   padding-right: 20px;
+   text-shadow: 1px 2px 7px black, 1px 1px 2px black;
+   margin-bottom: 50px;
+ }
+
+ .item-button {
+   border-radius: 5px;
+   margin-top: 15px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   padding-left: 10px;
+   padding-right: 10px;
+   background-color: white;
+   color: #6B2156;
+   border: 0px;
+   font-size: 20px;
+   box-shadow: 2px 2px 5px black;
+ }
+
+ .item-button:hover {
+
+   background-color: #6B2156;
+   color: white;
+   border-radius: 5px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   border-color: white;
+   border-style: solid;
+   border-width: 3px;
+   font-size: 20px;
+   padding-left: 10px;
+   padding-right: 10px;
+   box-shadow: 1px 1px 10px white;
+
+ }
+
+   .Compras {
+     width: 50%
+     margin: auto;
+     background-image: url("../compra/comprabanner.jpg");
+     background-repeat: no-repeat;
+     background-size: contain;
+     background-position: center;
+     padding-top: 50px;
+     margin-top: 100px;
+     text-align: center;
+   }
+
+   .Compras-h2 {
+     font-size: 40px;
+     font-family: 'Lilita One', cursive;
+     color: white;
+     text-shadow: 1px 2px 7px black, 1px 1px 2px black;
+     padding-bottom: 200px;
+   }
+
+   .Compras-p{
+     font-size: 40px;
+     font-family: 'Lilita One', cursive;
+     color: white;
+     margin-top: 20px;
+     text-shadow: 1px 2px 7px black, 1px 1px 2px black;
+     margin: auto;
+   }
+
+  /*página de nosotros*/
+
+  .Nosotros2 {
+    max-width: 1000px;
+    margin: auto;
+    background-image: url("../informacion/tejidomano.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #6B2156;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+
+  .Nosotros2-h2 {
+    font-size: 50px;
+    font-family: 'Lilita One', cursive;
+    color: #AF368D;
+    text-shadow: 1px 2px 7px white, 1px 1px 2px white;
+  }
+
+  .Nosotros2-p {
+    font-size: 30px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-shadow: 1px 2px 7px black, 1px 1px 2px black;
+  }
+
+.PQ {
+  width: 100%;
+  height: 500px;
+  background-color: #6B2156;
+  margin-top: 50px;
+  margin: auto;
+}
+
+.PQ-h {
+  font-size: 40px;
+  font-family: 'Lilita One', cursive;
+  color: white;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.PQ-ul {
+  width: 60%;
+  font-size: 20px;
+  color: white;
+  text-align: justify;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: auto;
+}
+
+.Que {
+   background-color: #713784;
+   padding-top: 100px;
+   padding-bottom: 100px;
+   margin-top: 100px;
+   margin-bottom: 50px;
+   text-align: center;
+   margin: auto;
+   color: white;
+}
+
+.Que-h2 {
+  font-size: 40px;
+  font-family: 'Lilita One', cursive;
+  color: white;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.Que-h3 {
+  width: 50%;
+  font-size: 30px;
+  color: white;
+  padding-top: 50px;
+  text-align: center;
+  margin: auto;
+  align-items: center;
+   list-style-type: none;
+}
+
+  .Que-p {
+    width: 50%;
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+    margin: auto;
+    list-style-position: inside
+  }
+
+  .Agra {
+    width: 100%;
+    height: 500px;
+
+    margin-top: 50px;
+    margin: auto;
+    text-align: center;
+    vertical-align: top;
+  }
+  .Agra-h2 {
+    font-size: 40px;
+    font-family: 'Lilita One', cursive;
+    color: #6B2156;
+    padding-top: 50px;
+    text-align: center;
+  }
+  .Agra-pj {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 20px;
+    color: #6B2156;
+    margin-bottom: 50px;
+  }
+
+  /*página de blog*/
+
+  .Blog-banner {
+    width: 100%;
+    height: 500px;
+    margin: auto;
+    margin-top: 100px;
+    background-image: url("../blog/blogbanner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    margin-bottom: 150px;
+  }
+
+  .Blog-sub {
+     background-color: #713784;
+     padding-top: 100px;
+     padding-bottom: 100px;
+     margin-top: 200px;
+     margin-bottom: 50px;
+     text-align: center;
+     margin: auto;
+     color: white;
+     box-shadow: 2px 2px 5px black;
+   }
+
+   .Blog-h2 {
+     width: 60%;
+     font-size: 40px;
+     font-family: 'Lilita One', cursive;
+     color: white;
+     padding-top: 20px;
+     text-align: center;
+     margin-bottom: 30px;
+     margin: auto;
+     text-shadow: 2px 2px 5px black;
+   }
+
+   .Blog-p2 {
+     width: 60%;
+     font-size: 30px;
+     color: white;
+     text-align: center;
+     margin: auto;
+     text-shadow: 2px 2px 5px black;
+   }
+
+   .areablog {
+
+      padding-top: 100px;
+      padding-bottom: 100px;
+      margin-top: 200px;
+      margin-bottom: 50px;
+      text-align: center;
+      margin: auto;
+      color: #6B2156;
+      display: inline-block;
+    }
+    .blog-art {
+      display: inline-block;
+      width: 40%;
+      vertical-align: top;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    .areablog-h2 {
+
+      font-size: 20px;
+
+      color: #6B2156;
+      padding-top: 20px;
+      text-align: center;
+      padding-bottom: 30px;
+      margin: auto;
+
+    }
+
+    .areablog-p {
+
+      font-size: 18px;
+      color: #6B2156;
+      text-align: justify;
+      margin: auto;
+    }
+
+    .blog-button {
+        border-radius: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        background-color: #713784;
+        color: white;
+        border: 0px;
+        font-size: 20px;
+        box-shadow: 2px 2px 5px black;
+      }
+
+      .blog-button:hover {
+        background-color: white;
+        color: #6B2156;
+        border-radius: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-color: #6B2156;
+        font-size: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+        box-shadow: 2px 2px 5px black;
+    }

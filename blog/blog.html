@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!--dise de pagina realizado por andrea gomez castañeda. camilo andres mojica moreno-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="pagina web colibri">
+    <meta name="keywords" content="ropa, bebe, infante, hecho a mano">
+    <meta name="author" content="Camilo Andres Mojica,Andrea Gomez Castañeda">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colibri.inc</title>
+    <link rel="stylesheet" href="../css/style.css">
+  </head>
+  <body>
+<!--Barra de navegacion web personal-->
+  <nav>
+
+  <div class="nav-content">
+    <div class="logo">
+      <img class="imglogo"src="../img/logo.png" alt="colibri" height="100px">
+  </div>
+  <ul class="nav-links">
+    <li><a href="../index.html">Inicio</a></li>
+    <li><a href="../compra/compra.html">Compras</a></li>
+    <li><a href="../informacion/nosotros.html">Nosotros</a></li>
+    <li><a href="../blog/blog.html">Blog</a></li>
+  </ul>
+</div>
+</nav>
+  <!--fin de la Barra de navegacion web personal-->
+<!--area de contenido-->
+<div class="Blog-banner">
+<br>
+</div>
+
+<div class="Blog-sub">
+  <div class="text">
+
+    <h2 class="Blog-h2">distraete un momento con información miscelanea de tu interés</h2>
+    <p class="Blog-p2">todo sobre el mundo de los bebés en la actualidad</p>
+    </div>
+</div>
+
+<div class="areablog">
+    <article class="blog-art">
+          <h2 class="areablog-h2">ROPA ORGÁNICA Y SOSTENIBLE PARA BEBÉ DE ALGODÓN ORGÁNICO O BAMBÚ</h2>
+          <img class="blogimg"src="../img/Bamboo.jpg" alt="compra" width="300px">
+          <p class="areablog-p">Descubre nuestra colección de ropa orgánica bebé. Ropa ecológica bebé que también es moda sostenible. <span id="dots">...</span><span id="more"> Prendas y ropa bebé algodón orgánico, con certificado GOTS de que no contienen restos de pesticidas ni productos químicos nocivos que causan alergias o problemas en la piel de los más pequeños, o de suave bambú orgánico hipoalergénico y antibacteriano cultivado de manera sostenible sin pesticidas ni fertilizantes proporcionando una experiencia única a quienes lo llevan. </span></p>
+
+          <br>
+        <button class="blog-button" onclick="myFunction()" id="myBtn">leer más</button>
+    </article>
+
+      <article class="blog-art">
+          <h2 class="areablog-h2">ESTIMULACIÓN MUSICAL PARA LOS BEBES</h2>
+          <img class="blogimg"src="../img/musica.jpg" alt="compra" width="300px">
+          <p class="areablog-p">Dentro de la Estimulación Temprana  una parte fundamental es la estimulación musical. <span id="dots">...</span><span id="more"> Favorece a los sentidos y ayuda a mejorar sus capacidades cognitivas y afectivas. A partir de los 3 meses es cuando ya podemos iniciar a nuestros bebés al descubrimiento musical y sus posibilidades. Es aquí, dónde el Juego es parte esencial de este proceso.</span></p>
+
+          <br>
+        <button class="blog-button" onclick="myFunction()" id="myBtn">leer más</button>
+      </article>
+</div>
+
+
+  <!--AREA DE <scrip DE JAVA-->
+  <script>
+    let nav = document.querySelector("nav");
+    window.onscroll= function() {
+      if(document.documentElement.scrollTop > 20){
+      nav.classList.add("sticky");
+    }else {
+      nav.classList.remove("sticky");
+     }
+      }
+
+  </script>
+
+  </body>
+</html>

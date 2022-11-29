@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!--dise de pagina realizado por andrea gomez castañeda. camilo andres mojica moreno-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="pagina web colibri">
+    <meta name="keywords" content="ropa, bebe, infante, hecho a mano">
+    <meta name="author" content="Camilo Andres Mojica,Andrea Gomez Castañeda">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colibri.inc</title>
+    <link rel="stylesheet" href="../css/style.css">
+  </head>
+  <body>
+<!--Barra de navegacion web personal-->
+  <nav>
+
+  <div class="nav-content">
+    <div class="logo">
+      <img class="imglogo"src="../img/logo.png" alt="colibri" height="100px">
+  </div>
+  <ul class="nav-links">
+    <li><a href="../index.html">Inicio</a></li>
+    <li><a href="../compra/compra.html">Compras</a></li>
+    <li><a href="../informacion/nosotros.html">Nosotros</a></li>
+    <li><a href="../blog/blog.html">Blog</a></li>
+  </ul>
+</div>
+</nav>
+  <!--fin de la Barra de navegacion web personal-->
+
+<!--area de contenido-->
+
+    <div class="Compras">
+
+      <h2 class="Compras-h2">¡El mejor momento para conocer y comprar en nuestro mundo mágico Colibrí Inc para tu bebe! </h2>
+        <p class="Compras-p">Aquí encuentras todo para tu bebe</p>
+        <br>
+        <br>
+      </div>
+
+
+<!--Productos-->
+  <div class="productos">
+
+      <div class="item-pr">
+
+        <h3 class="item-title">Accesorios</h3>
+        <img class="productimage"src="../compra/ACCESORIOS.jpg" alt="compra" height="300px">
+        <br>
+        <button class="item-button"  id="accesorios">comprar ya </button>
+        <p class="item-description"> cómodos accesorios como gorros y juguetes</p>
+
+    </div>
+
+    <div class="item-pr">
+        <h3 class="item-title">Bodies</h3>
+
+        <img class="productimage"src="../compra/BODY.jpg" alt="body" height="300px">
+        <br>
+        <button class="item-button" id="accesorios">comprar ya </button>
+        <p class="item-description"> bodies en todos los estilos</p>
+
+    </div>
+
+    <div class="item-pr">
+        <h3 class="item-title">calcetines</h3>
+        <img class="productimage"src="../compra/CALCETINES.jpg" alt="calcetines" height="300px">
+        <br>
+        <button class="item-button" id="accesorios">comprar ya </button>
+        <p class="item-description"> calcetines hipoalergénicos y que tu bebé no será capaz de quitarse con nuestra tecnología patentada</p>
+
+
+    </div>
+</div>
+
+  <!--AREA DE <scrip DE JAVA-->
+  <script>
+    let nav = document.querySelector("nav");
+    window.onscroll= function() {
+      if(document.documentElement.scrollTop > 20){
+      nav.classList.add("sticky");
+    }else {
+      nav.classList.remove("sticky");
+     }
+      }
+
+  </script>
+
+  </body>
+</html>

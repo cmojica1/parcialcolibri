@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!--dise de pagina realizado por andrea gomez castañeda. camilo andres mojica moreno-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Colibri.inc</title>
+    <link rel="stylesheet" href="../css/style.css">
+  </head>
+  <body>
+<!--Barra de navegacion web personal-->
+  <nav>
+
+  <div class="nav-content">
+    <div class="logo">
+      <img class="imglogo"src="../img/logo.png" alt="colibri" height="100px">
+  </div>
+  <ul class="nav-links">
+    <li><a href="../index.html">Inicio</a></li>
+    <li><a href="../compra/compra.html">Compras</a></li>
+    <li><a href="../informacion/nosotros.html">Nosotros</a></li>
+    <li><a href="../blog/blog.html">Blog</a></li>
+  </ul>
+</div>
+</nav>
+  <!--fin de la Barra de navegacion web personal-->
+<!--area de contenido-->
+<div class="Nosotros2">
+<div class="text">
+    <h2 class="Nosotros2-h2">¿Quienes somos?</h2>
+      <p class="Nosotros2-p">Somos una empresa de moda que vende ropa para bebé hecha a mano, nuestros artículos están hechos con prácticas respetuosas con el medio ambiente. Enviamos nuestras prendas directo a tu hogar para tu comodidad y pensando en tu tiempo.</p>
+      <p class="Nosotros2-p">Nuestro enfasis es el de prestar un servicio personalizado para que tu bebé use prendas únicas, con estilos vintage y retro que te harán pensar en las memorias que construyes con nostalgia y cariño. </p>
+</div>
+</div>
+
+<div class="PQ">
+
+    <h3 class="PQ-h">¿Por qué elegirnos?</h3>
+      <ul class="PQ-ul">
+        <li class="PQ-ul">Productos de alta calidad con materiales seguros para tu bebé y niño</li>
+        <li class="PQ-ul">Ropa hecha a mano con mucho amor</li>
+        <li class="PQ-ul">Compromiso con el medio ambiente</li>
+        <li class="PQ-ul">La mejor experiencia de compra que encontrarás, ya que comenzarás tu pedido por nuestra tienda online y terminará por WhatsApp donde te confirmaremos el costo de envío correspondiente y podrás realizarnos las consultas que quieras respecto a tu compra.</li>
+        <li class="PQ-ul">Marcas reconocidas a nivel nacional e internacionalmente.</li>
+        <li class="PQ-ul">Tienes muchas opciones para hacer el pago: Transferencia bancaria, Billeteras virtuales, Moneda Virtual, Banca por Internet, Tarjeta de Débito y Tarjeta de Crédito. Todas la opciones están bajo la protección y seguridad de pasarelas de pago internacionales de confianza.</li>
+      </ul>
+</div>
+
+<div class="Que">
+    <h2 class="Que-h2">¿Qué encontrarás en colibrí inc?</h2>
+
+      <ol>
+      <h3 class="Que-h3"><li>Comodidad y una forma de ahorrar tiempo.</li></h3>
+          <p class="Que-p">En nuestra tienda para bebés y niños tendrás la oportunidad de elegir entre una variedad de productos sin tener que buscar en otros lugares, eligiendo entre todos los medios de pagos que te ofrecemos y recibiendo tu pedido hasta la puerta de tu casa.</p>
+
+      <h3 class="Que-h3"><li>Productos que necesitas.</li></h3>
+          <p class="Que-p">En Colibri inc nos preocupamos por ofrecer productos que sean útiles y novedosos, que ayuden a tu bebe en cada etapa de su desarrollo así como a ti también. Las marcas que ofrecemos tienen prestigio y son conocidas por su calidad. Específicamente podrás elegir entre las siguientes categorías:</p>
+            <ul>
+              <li class="Que-p">Ropa</li>
+              <li class="Que-p">Calzado</li>
+              <li class="Que-p">Accesorios</li>
+            </ul>
+
+      <h3 class="Que-h3"><li>Material de calidad.</li></h3>
+          <p class="Que-p">Sabemos lo importante que es para ti cuidar de tu bebé o niño, por eso te ofrecemos productos de la más alta calidad y comprometidos con el medio ambiente.</p>
+
+      <h3 class="Que-h3"><li>Un trato humano.</li></h3>
+          <p class="Que-p">No porque sea una tienda online significa que le compras a través de la fría Internet. Siempre tendrás nuestro apoyo en cualquier duda que tengas y presentes en nuestros otros canales como redes sociales y blog. Además que a diferencia de las comunes compras por internet, con nosotros podrás finalizar tu pedido por WhatsApp, con lo cual tendrás la seguridad de escoger y comprar lo que realmente deseas haciendo todas las consultas que necesites hacer.</p>
+        </ol>
+</div>
+
+<div class="Agra">
+    <h2 class="Agra-h2">Te agradecemos tu interés en conocernos un poco más, Atentamente nuestro equipo:</h2>
+
+      <div class="Agra-pj">
+        <h3>Andrea Gomez Castañeda</h3>
+          <img class="agraimg"src="../informacion/andrea.jpeg" alt="andrea" height="300px">
+      </div>
+
+      <div class="Agra-pj">
+        <h3>Camilo Andrés Mojica</h3>
+          <img class="agraimg"src="../informacion/camilo.jpeg" alt="andrea" height="300px">
+      </div>
+</div>
+
+  <!--AREA DE <scrip DE JAVA-->
+  <script>
+    let nav = document.querySelector("nav");
+    window.onscroll= function() {
+      if(document.documentElement.scrollTop > 20){
+      nav.classList.add("sticky");
+    }else {
+      nav.classList.remove("sticky");
+     }
+      }
+
+  </script>
+
+  </body>
+</html>
